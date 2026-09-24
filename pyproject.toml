@@ -1,0 +1,16 @@
+[project]
+name = "rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.141.1",
+    "inngest>=0.5.19",
+    "llama-index-readers-file>=0.7.0",
+    "openai>=3.19.2",
+    "python-dotenv>=1.2.3",
+    "qdrant-client>=1.19.1",
+    "streamlit>=1.64.0",
+    "uvicorn>=0.53.0",
+]
